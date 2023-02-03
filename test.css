@@ -12,10 +12,6 @@
     transition-property: transform;
   }
   
-  .square.tp-color {
-    transition-property: background-color;
-  }
-  
   .square.tp-both {
     transition-property: background-color, transform;
   
@@ -24,10 +20,6 @@
     
     transition-property: all;
     */
-  }
-  
-  .square.tp-none {
-    transition-property: none;
   }
   
   .square:is(:hover, :focus) {
