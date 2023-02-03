@@ -1,11 +1,13 @@
 .brandPhoto {
     transition-duration: 600ms;
     transition-timing-function: ease;
+    transition-property: transform;
+    place-items: center;
   }
   
-  .brandPhoto.tp-transform {
+  /*.brandPhoto.tp-transform {
     transition-property: transform;
-  }
+  }*/
   
   .brandPhoto:is(:hover, :focus) {
     transform: scale(1.3);
